@@ -51,7 +51,7 @@ const calcScalar = (C, X) => {
     }
 
     nu *= u;
-    nu /= (1 - (2*n - 1) * u);
+    nu /= (1 - (2*n + 1) * u);
 
     return [ sum, nu ];
 }
